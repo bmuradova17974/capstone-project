@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bilgeyis Muradova|Contact page</title>
+        <link rel="icon" type="image/png" href="/photo/logo.png">
+        <meta charset="UTF-8">
+        <meta name="description" content="Contact page of Bilgeyis Muradova">
+        <meta name="author" content="Bilgeyis Muradova">
+    </head>
+
+    <body>
+        
+        <header>
+            <nav>
+                <a href="/page/home.html">Home</a> |
+                <a href="/page/education.html">Education</a> |
+                <a href="/page/schedule.html">Schedule</a> |
+                <a href="/page/contact.html">Contact Me</a> |
+                <a href="/page/questionnaire.html">Questionnaire</a> |
+            </nav>
+        </header>
+
+        <section>
+            <h2>Contact Me</h2>
+
+            <form action="mailto:bilqeyismuradova19@gmail.com" enctype="text/plain" method="post">
+                <label for="fullname">Your Full Name:</label>
+                <input type="text" id="fullname" name="fullname"><br><br>
+
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label><br><br>
+
+                <label for="email">Your Mail:</label>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="age">Your Age:</label>
+                <select id ="age" name="age">
+                    <option value="15-18">15-18</option>
+                    <option value="18-25">18-25</option>
+                    <option value="25-40">25-40</option>
+                    <option value="40+">40+</option>
+                </select><br>
+
+                <p>Subject you would like to contact me about:</p>
+
+                <input type="checkbox" id="r1" name="subject" value="Education">
+                <label for="r1">Education</label><br>
+
+                <input type="checkbox" id="r2" name="subject" value="Volunteering">
+                <label for="r2">Volunteering</label><br>
+
+                <input type="checkbox" id="r3" name="subject" value="Collaboration">
+                <label for="r3">Collaboration</label><br>
+
+                <input type="checkbox" id="r4" name="subject" value="Question">
+                <label for="r4">General Question</label><br>
+
+                <input type="checkbox" id="r5" name="subject" value="Other">
+                <label for="r5">Other</label><br><br>
+
+                <p>Please enter your message below:</p>
+                <textarea name="message" rows="10" cols="30"></textarea><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+        <br>
+        
+        <footer>
+            <h3>Follow me on:</h3>
+            <a href="https://github.com/bmuradova17974" target="_blank">GitHub</a> | 
+            <a href="https://www.linkedin.com/in/bilqeyis-muradova-8654b3288/" target="_blank">LinkedIn</a>
+        </footer>
+    </body>
+</html>

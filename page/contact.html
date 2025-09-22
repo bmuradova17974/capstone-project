@@ -24,27 +24,30 @@
             <h2>Contact Me</h2>
 
             <form action="mailto:bilqeyismuradova19@gmail.com" enctype="text/plain" method="post">
-                <label for="fullname">Your Full Name:</label>
+                <ul>
+
+                <li><label for="fullname">Your Full Name:</label></li>
                 <input type="text" id="fullname" name="fullname"><br><br>
 
+                <li>Your Gender</li>
                 <input type="radio" id="male" name="gender" value="Male">
                 <label for="male">Male</label>
 
                 <input type="radio" id="female" name="gender" value="Female">
                 <label for="female">Female</label><br><br>
 
-                <label for="email">Your Mail:</label>
+                <li><label for="email">Your Mail:</label></li>
                 <input type="email" id="email" name="email"><br><br>
 
-                <label for="age">Your Age:</label>
+                <li><label for="age">Your Age:</label></li>
                 <select id ="age" name="age">
                     <option value="15-18">15-18</option>
                     <option value="18-25">18-25</option>
                     <option value="25-40">25-40</option>
                     <option value="40+">40+</option>
-                </select><br>
+                </select><br><br>
 
-                <p>Subject you would like to contact me about:</p>
+                <li>Subject you would like to contact me about:</li>
 
                 <input type="checkbox" id="r1" name="subject" value="Education">
                 <label for="r1">Education</label><br>
@@ -61,9 +64,10 @@
                 <input type="checkbox" id="r5" name="subject" value="Other">
                 <label for="r5">Other</label><br><br>
 
-                <p>Please enter your message below:</p>
+                <li>Please enter your message below:</li>
                 <textarea name="message" rows="10" cols="30"></textarea><br><br>
                 <input type="submit" value="Submit">
+                </ul>
             </form>
         </section>
 
